@@ -28,7 +28,7 @@
     <integer name="config_metadata_version">1</integer>
 
     <!-- [Required] Unique vendor name to identify this ROM. Examples: protonaosp, posp, lineageos -->
-    <string name="config_vendor_name" translatable="false"></string>
+    <string name="config_vendor_name" translatable="false">pixelexperience</string>
 
     <!--
         [Optional] Colors to use for theming the system boot animation with dynamic colors.
@@ -49,12 +49,11 @@
         will automatically use the nearest supported shade until your exact shade is added.
     -->
     <string-array name="config_boot_animation_colors" translatable="false">
-        <!--
-        Example:
+
         <item>accent1/100</item>
         <item>accent1/600</item>
         <item>neutral1/50</item>
         <item>neutral2/300</item>
-        -->
+
     </string-array>
 </resources>
